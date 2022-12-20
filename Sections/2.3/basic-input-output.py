@@ -47,3 +47,14 @@ print(country_name, end=' ')
 print('was', end=' ')
 print(country_population, end=' ')
 print('in 2011')
+
+# Input which breakks the above because it's setting a variable that will be used for country lol
+my_var = input()
+print(my_var)
+
+# Convert strings to integers
+my_string = '123'
+my_int = int('123')
+
+print(my_string)
+print(my_int)
