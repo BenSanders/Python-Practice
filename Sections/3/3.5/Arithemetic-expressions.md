@@ -16,4 +16,4 @@ Example:
 	
 	
 # Example: Calorie expenditure:
-A website lists the calories expended by men and women during exercise as follows ((Source))[https://web.archive.org/web/20120422154143/http://fitnowtraining.com/2012/01/formula-for-calories-burned/]:
+A website lists the calories expended by men and women during exercise as follows (Source)[https://web.archive.org/web/20120422154143/http://fitnowtraining.com/2012/01/formula-for-calories-burned/]:
