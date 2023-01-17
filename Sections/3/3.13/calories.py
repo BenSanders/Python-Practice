@@ -35,26 +35,26 @@ while sex not in valid_sexes:
 print("You have chosen ", sex)
 
 if sex == 'female':
-	women_age = input('Please input your age: ')
+	age = input('Please input your age: ')
 	
 	# double-checking it's type
 	# print(type(women_age))
 	# exit()
 	
-	women_weight = input('Please input your current weight: ')
-	women_heart_rate =  input('Please input your heart rate: ')
-	women_time = input('Please input the time it took: ')
+	weight = input('Please input your current weight: ')
+	heart_rate =  input('Please input your heart rate: ')
+	time = input('Please input the time it took: ')
 	
-	calories_women = (( (float(women_age) * 0.074) - (float(women_weight) * 0.05741) + (float(women_heart_rate) * 0.4472) - 20.4022 ) * float(women_time) / 4.184)
+	calories_women = round(( (float(age) * 0.074) - (float(weight) * 0.05741) + (float(heart_rate) * 0.4472) - 20.4022 ) * float(time) / 4.184, 2)
 	
 	print('Women: {:.2f} calories' . format(calories_women))
 if sex == 'male':
-	men_age = input('Please input your age: ')
-	men_weight = input ('Please input your weight: ')
-	men_heart_rate = input('Please input your heart rate: ')
-	men_time = input('Please input your time: ')
+	age = input('Please input your age: ')
+	weight = input ('Please input your weight: ')
+	heart_rate = input('Please input your heart rate: ')
+	time = input('Please input your time: ')
 	
-	calories_men = (( (float(men_age) * 0.2017) - (float(men_weight) * 0.09036) + (float(men_heart_rate) * 0.6309) - 55.0969 ) * float(men_time) / 4.184)
+	calories_men = round(( (float(age) * 0.074) - (float(weight) * 0.05741) + (float(heart_rate) * 0.4472) - 20.4022 ) * float(time) / 4.184, 2)
 	
 	print('Men: {:2f} calories' . format(calories_men))
 
