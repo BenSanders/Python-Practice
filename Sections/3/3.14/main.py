@@ -31,6 +31,9 @@ your_value4 = math.sqrt(x ** z)
 
 print('{:.2f} {:.2f} {:.2f} {:.2f}'.format(your_value1, your_value2, your_value3, your_value4))
 
+# Looks like the power operator might be faster?
+# https://stackoverflow.com/questions/20969773/exponentials-in-python-xy-vs-math-powx-y
+
 # Apparently I accomplished the same thing differently
 # 
 # author link
