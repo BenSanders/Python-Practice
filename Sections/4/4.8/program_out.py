@@ -1,0 +1,6 @@
+number_string = input()
+number_float = float(number_string)
+number_int = int(number_float)
+print(number_string)
+print(number_float)
+print(number_int)
